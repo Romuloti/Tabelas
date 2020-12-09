@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsert="utf-8">
+        <meta name="description" content="Criado tabelas com th, tr e td">
+        <meta name="keywords" content="Tabelas, th, tr e td">
+        <meta name="author" content="Romulo de Oliveira Azevedo">
+        <link rel="stylesheet" href="">
+        <title>Tabelas Todos </title>
+    </head>
+
+<body>    
+<title>Tabelas</title>
+<table border="2">
+    <tr>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Idade</th>
+        <th>...</th> 
+    </tr>
+    <tr>
+        <td>Romulo</td>
+        <td>Azevedo</td>
+        <td>37</td>
+        <td rowspan="4">4 linhas</td>
+    </tr>
+    <tr>
+        <td>Colega 1</td>
+        <td>Trabalho</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Colega 2</td>
+        <td>Faculdade</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Colega 3</td>
+        <td>Curso</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="text-align: center;">4 colunas</td>
+    </tr>
+</table>
+<hr>
+<table border="1">
+    <caption>Faculdade x Tempo</caption>
+    <tr>
+        <th colspan="6">Graduações</th>
+    </tr>
+    <tr>
+        <td rowspan="2">ADM</td>
+        <td>Ano</td>
+        <td>Tempo</td>
+        <td>Entrada</td>
+        <td>Saída</td>
+        <td>Obs:</td>
+    </tr>
+    <tr>    
+        
+        <td>2010/2015</td>
+        <td>4 Anos</td>
+        <td>2010</td>
+        <td>2015</td>
+        <td>Nível hard</td>
+    </tr>
+    <tr>
+        <td>Mkt</td>
+        <td></td>
+        <td>2/5</td>
+        <td></td>
+        <td></td>
+        <td>Pesado</td>
+    </tr>
+    <tr>
+        <td>TSI</td>
+        <td></td>
+        <td>2/5</td>
+        <td></td>
+        <td></td>
+        <td>Pesado</td>
+    </tr>
+    <tr>
+        <td>ADS</td>
+        <td></td>
+        <td>2/5</td>
+        <td></td>
+        <td></td>
+        <td>Pesado</td>
+    </tr>
+</table>
+</body>
+</html>
+
+
