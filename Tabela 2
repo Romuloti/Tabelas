@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+    <title>Tabela 2</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Descrição do site">
+    <meta name="keywords" content="Palavras chaves">
+    <meta name="author" content="Romulo de Oliveira Azevedo">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+<TABLE BORDER=2> <!-- Inicia a tabela e coloca uma borda de espessura igual a 1> -->
+
+<TR> <!-- Cria a primeira linha de referência da tabela> -->
+
+<TH>Coluna 1 </TH> <!-- Aqui foi criada uma célula> -->
+<TD>Coluna 2 </TD>
+<TD>Coluna 3 </TD>
+<TH>Coluna 4 </TH>
+<TD>Coluna 5 </TD>
+<TD>Coluna 6 </TD>
+
+
+</TR> <!-- Fecha a primeira linha da tabela> -->
+
+<TR> <!-- Abre a segunda linha da tabela> -->
+
+<TD> PRIMEIRA LINHA, PRIMEIRA CELULA</TD>
+
+<TD>Primeira Linha, segunda celula </TD>
+
+<TD>Primeira Linha, terceira celula </TD>
+
+<TD>QUARTA LINHA, QUARTA CELULA</TD>
+
+<TD>Primeira Linha, Quinta celula </TD>
+
+<TD>Primeira Linha, Sexta celula </TD>
+
+</TR> <!-- Encerra a Segunda linha da tabela> -->
+
+<tr>
+
+<TD> Segunda LINHA, PRIMEIRA CELULA</TD>
+
+<TD>Segunda Linha, segunda celula </TD>
+
+<TD>Segunda Linha, terceira celula </TD>
+
+<TD>Segunda LINHA, QUARTA CELULA</TD>
+
+<TD>Segunda Linha, Quinta celula </TD>
+
+<TD>Segunda Linha, Sexta celula </TD>
+
+</tr>
+
+
+</TABLE> <!-- Encerra a tabela> -->
+
+
+</body>
+</html>
